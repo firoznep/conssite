@@ -1,0 +1,34 @@
+.navBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5rem;
+  background: transparent;
+  color: #5c253d;
+  z-index: 100;
+  transition: all 300ms;
+}
+
+.activeScrolled {
+  position: sticky;
+  background-color: #dddddd;
+  box-shadow: 0 0.1rem 1rem #000;
+}
+
+.navItemContainer {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  cursor: pointer;
+  user-select: none;
+}
+.navItem {
+  margin: 0 1rem;
+  cursor: pointer;
+}
